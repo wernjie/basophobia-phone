@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6F5B572377BEC8000964FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6F5B562377BEC8000964FA /* AppDelegate.swift */; };
+		ED6F5B5B2377BEC8000964FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6F5B5A2377BEC8000964FA /* ViewController.swift */; };
+		ED6F5B5E2377BEC8000964FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6F5B5C2377BEC8000964FA /* Main.storyboard */; };
+		ED6F5B602377BECC000964FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6F5B5F2377BECC000964FA /* Assets.xcassets */; };
+		ED6F5B632377BECC000964FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6F5B612377BECC000964FA /* LaunchScreen.storyboard */; };
+		ED6F5B702377C66D000964FA /* scream.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED6F5B6E2377C66D000964FA /* scream.m4a */; };
+		ED6F5B712377C66D000964FA /* pain.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED6F5B6F2377C66D000964FA /* pain.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED6F5B532377BEC8000964FA /* Basophobia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basophobia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6F5B562377BEC8000964FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6F5B5A2377BEC8000964FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6F5B5D2377BEC8000964FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6F5B5F2377BECC000964FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6F5B622377BECC000964FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6F5B642377BECC000964FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6F5B6E2377C66D000964FA /* scream.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = scream.m4a; sourceTree = "<group>"; };
+		ED6F5B6F2377C66D000964FA /* pain.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pain.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6F5B502377BEC8000964FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6F5B4A2377BEC8000964FA = {
+			isa = PBXGroup;
+			children = (
+				ED6F5B552377BEC8000964FA /* basophobia phone */,
+				ED6F5B542377BEC8000964FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6F5B542377BEC8000964FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6F5B532377BEC8000964FA /* Basophobia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6F5B552377BEC8000964FA /* basophobia phone */ = {
+			isa = PBXGroup;
+			children = (
+				ED6F5B562377BEC8000964FA /* AppDelegate.swift */,
+				ED6F5B5A2377BEC8000964FA /* ViewController.swift */,
+				ED6F5B5C2377BEC8000964FA /* Main.storyboard */,
+				ED6F5B5F2377BECC000964FA /* Assets.xcassets */,
+				ED6F5B612377BECC000964FA /* LaunchScreen.storyboard */,
+				ED6F5B642377BECC000964FA /* Info.plist */,
+				ED6F5B6F2377C66D000964FA /* pain.m4a */,
+				ED6F5B6E2377C66D000964FA /* scream.m4a */,
+			);
+			path = "basophobia phone";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6F5B522377BEC8000964FA /* basophobia phone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6F5B672377BECC000964FA /* Build configuration list for PBXNativeTarget "basophobia phone" */;
+			buildPhases = (
+				ED6F5B4F2377BEC8000964FA /* Sources */,
+				ED6F5B502377BEC8000964FA /* Frameworks */,
+				ED6F5B512377BEC8000964FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "basophobia phone";
+			productName = "basophobia phone";
+			productReference = ED6F5B532377BEC8000964FA /* Basophobia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6F5B4B2377BEC8000964FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Wern Jie Lim";
+				TargetAttributes = {
+					ED6F5B522377BEC8000964FA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ED6F5B4E2377BEC8000964FA /* Build configuration list for PBXProject "basophobia phone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6F5B4A2377BEC8000964FA;
+			productRefGroup = ED6F5B542377BEC8000964FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6F5B522377BEC8000964FA /* basophobia phone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6F5B512377BEC8000964FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6F5B632377BECC000964FA /* LaunchScreen.storyboard in Resources */,
+				ED6F5B702377C66D000964FA /* scream.m4a in Resources */,
+				ED6F5B602377BECC000964FA /* Assets.xcassets in Resources */,
+				ED6F5B712377C66D000964FA /* pain.m4a in Resources */,
+				ED6F5B5E2377BEC8000964FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6F5B4F2377BEC8000964FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6F5B5B2377BEC8000964FA /* ViewController.swift in Sources */,
+				ED6F5B572377BEC8000964FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED6F5B5C2377BEC8000964FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6F5B5D2377BEC8000964FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6F5B612377BECC000964FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6F5B622377BECC000964FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6F5B652377BECC000964FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6F5B662377BECC000964FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6F5B682377BECC000964FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MNM6PUQP4;
+				INFOPLIST_FILE = "basophobia phone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limwernjie.basophobia-phone";
+				PRODUCT_NAME = Basophobia;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6F5B692377BECC000964FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MNM6PUQP4;
+				INFOPLIST_FILE = "basophobia phone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limwernjie.basophobia-phone";
+				PRODUCT_NAME = Basophobia;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6F5B4E2377BEC8000964FA /* Build configuration list for PBXProject "basophobia phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6F5B652377BECC000964FA /* Debug */,
+				ED6F5B662377BECC000964FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6F5B672377BECC000964FA /* Build configuration list for PBXNativeTarget "basophobia phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6F5B682377BECC000964FA /* Debug */,
+				ED6F5B692377BECC000964FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6F5B4B2377BEC8000964FA /* Project object */;
+}
